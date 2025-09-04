@@ -1,0 +1,13 @@
+/workspaces/CS-310/build/CMakeFiles/MathApp.dir
+/workspaces/CS-310/build/CMakeFiles/unit_tests.dir
+/workspaces/CS-310/build/CMakeFiles/test.dir
+/workspaces/CS-310/build/CMakeFiles/edit_cache.dir
+/workspaces/CS-310/build/CMakeFiles/rebuild_cache.dir
+/workspaces/CS-310/build/_deps/catch2-build/CMakeFiles/test.dir
+/workspaces/CS-310/build/_deps/catch2-build/CMakeFiles/edit_cache.dir
+/workspaces/CS-310/build/_deps/catch2-build/CMakeFiles/rebuild_cache.dir
+/workspaces/CS-310/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir
+/workspaces/CS-310/build/_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir
+/workspaces/CS-310/build/_deps/catch2-build/src/CMakeFiles/test.dir
+/workspaces/CS-310/build/_deps/catch2-build/src/CMakeFiles/edit_cache.dir
+/workspaces/CS-310/build/_deps/catch2-build/src/CMakeFiles/rebuild_cache.dir
