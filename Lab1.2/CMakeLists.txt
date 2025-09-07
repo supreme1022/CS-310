@@ -46,12 +46,13 @@ target_link_libraries(app PRIVATE core)
 include(CTest)
 enable_testing()
 
-add_executable(tests tests/test_serialization.cpp)
-target_link_libraries(tests PRIVATE core Catch2::Catch2WithMain)
+# Build the test executable (renamed to test_serialization for clarity)
+add_executable(test_serialization tests/test_serialization.cpp)
+target_link_libraries(test_serialization PRIVATE core Catch2::Catch2WithMain)
 
 # Catch2 test discovery
 include(${catch2_SOURCE_DIR}/extras/Catch.cmake)
-catch_discover_tests(tests)
+catch_discover_tests(test_serialization)
 
 # Manual fallback in case discovery fails
-add_test(NAME run_tests COMMAND tests)
+add_test(NAME serialization_tests COMMAND test_serialization)

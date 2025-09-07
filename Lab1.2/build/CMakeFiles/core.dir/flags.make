@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/workspaces/CS-310/Lab1.2/src -I/workspaces/CS-310/Lab1.2/build/_deps/json-src/include -I/workspaces/CS-310/Lab1.2/build/_deps/yaml-cpp-src/include
 
-CXX_FLAGS = -g -std=gnu++20
+CXX_FLAGS = -std=gnu++20
 

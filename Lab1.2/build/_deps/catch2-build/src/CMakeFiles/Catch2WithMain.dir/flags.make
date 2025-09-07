@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/workspaces/CS-310/Lab1.2/build/_deps/catch2-src/src/catch2/.. -I/workspaces/CS-310/Lab1.2/build/_deps/catch2-build/generated-includes
 
-CXX_FLAGS = -g -std=gnu++20 -ffile-prefix-map=/workspaces/CS-310/Lab1.2/build/_deps/catch2-src/=
+CXX_FLAGS = -std=gnu++20 -ffile-prefix-map=/workspaces/CS-310/Lab1.2/build/_deps/catch2-src/=
 

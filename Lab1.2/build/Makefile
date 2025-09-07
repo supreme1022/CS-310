@@ -154,17 +154,17 @@ app/fast:
 .PHONY : app/fast
 
 #=============================================================================
-# Target rules for targets named tests
+# Target rules for targets named test_serialization
 
 # Build rule for target.
-tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests
-.PHONY : tests
+test_serialization: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_serialization
+.PHONY : test_serialization
 
 # fast build rule for target.
-tests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-.PHONY : tests/fast
+test_serialization/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_serialization.dir/build.make CMakeFiles/test_serialization.dir/build
+.PHONY : test_serialization/fast
 
 #=============================================================================
 # Target rules for targets named Experimental
@@ -709,7 +709,7 @@ tests/test_serialization.o: tests/test_serialization.cpp.o
 
 # target to build an object file
 tests/test_serialization.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/test_serialization.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_serialization.dir/build.make CMakeFiles/test_serialization.dir/tests/test_serialization.cpp.o
 .PHONY : tests/test_serialization.cpp.o
 
 tests/test_serialization.i: tests/test_serialization.cpp.i
@@ -717,7 +717,7 @@ tests/test_serialization.i: tests/test_serialization.cpp.i
 
 # target to preprocess a source file
 tests/test_serialization.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/test_serialization.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_serialization.dir/build.make CMakeFiles/test_serialization.dir/tests/test_serialization.cpp.i
 .PHONY : tests/test_serialization.cpp.i
 
 tests/test_serialization.s: tests/test_serialization.cpp.s
@@ -725,7 +725,7 @@ tests/test_serialization.s: tests/test_serialization.cpp.s
 
 # target to generate assembly for a file
 tests/test_serialization.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/test_serialization.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_serialization.dir/build.make CMakeFiles/test_serialization.dir/tests/test_serialization.cpp.s
 .PHONY : tests/test_serialization.cpp.s
 
 # Help Target
@@ -769,7 +769,7 @@ help:
 	@echo "... Catch2WithMain"
 	@echo "... app"
 	@echo "... core"
-	@echo "... tests"
+	@echo "... test_serialization"
 	@echo "... yaml-cpp"
 	@echo "... yaml-cpp-parse"
 	@echo "... yaml-cpp-read"

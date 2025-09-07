@@ -1,33 +1,35 @@
 #pragma once
-#include "serializable.hpp"
-#include "exceptions.hpp"
 #include <string>
-#include <regex>
+#include <stdexcept>
+#include <nlohmann/json.hpp>
+#include <yaml-cpp/yaml.h>
+#include "exceptions.hpp"
 
-class Person : public Serializable {
+using namespace std;
+
+class Person {
 protected:
-  int         id_;
-  std::string name_;
-  std::string email_;
-
-  static void validate_email(const std::string& e) {
-    // intentionally simple for the lab; throws on bad input
-    static const std::regex re(R"(^[^@\s]+@[^@\s]+\.[^@\s]+$)");
-    if (!std::regex_match(e, re)) throw ValidationError("Invalid email: " + e);
-  }
-
+    int id_;
+    string name_;
+    string email_;
 public:
-  Person(int id, std::string name, std::string email)
-    : id_(id), name_(std::move(name)), email_(std::move(email)) {
-    if (id_ <= 0) throw ValidationError("id must be positive");
-    if (name_.empty()) throw ValidationError("name is required");
-    validate_email(email_);
-  }
+    Person(int id, string name, string email)
+        : id_(id), name_(name), email_(email)
+    {
+        if (id < 0) throw ValidationError("id cannot be negative");
+        if (name.empty()) throw ValidationError("name cannot be empty");
+        if (email.empty()) throw ValidationError("email cannot be empty");
+    }
 
-  virtual std::string role() const = 0;
+    // getters
+    int id() const { return id_; }
+    string name() const { return name_; }
+    string email() const { return email_; }
 
-  // Accessors for tests
-  int id() const { return id_; }
-  const std::string& name() const { return name_; }
-  const std::string& email() const { return email_; }
+    virtual string role() const = 0;
+    virtual nlohmann::json to_json() const = 0;
+    virtual YAML::Node to_yaml() const = 0;
+    virtual string csv_header() const = 0;
+    virtual string csv_row() const = 0;
+    virtual ~Person() {}
 };

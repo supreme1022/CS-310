@@ -159,7 +159,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/core.dir/DependInfo.cmake"
   "CMakeFiles/app.dir/DependInfo.cmake"
-  "CMakeFiles/tests.dir/DependInfo.cmake"
+  "CMakeFiles/test_serialization.dir/DependInfo.cmake"
   "_deps/yaml-cpp-build/CMakeFiles/Experimental.dir/DependInfo.cmake"
   "_deps/yaml-cpp-build/CMakeFiles/Nightly.dir/DependInfo.cmake"
   "_deps/yaml-cpp-build/CMakeFiles/Continuous.dir/DependInfo.cmake"
