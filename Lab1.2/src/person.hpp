@@ -14,12 +14,15 @@ protected:
     string email_;
 public:
     Person(int id, string name, string email)
-        : id_(id), name_(name), email_(email)
-    {
-        if (id < 0) throw ValidationError("id cannot be negative");
-        if (name.empty()) throw ValidationError("name cannot be empty");
-        if (email.empty()) throw ValidationError("email cannot be empty");
-    }
+    : id_(id), name_(name), email_(email)
+{
+    if (id < 0) throw ValidationError("id cannot be negative");
+    if (name.empty()) throw ValidationError("name cannot be empty");
+    if (email.empty()) throw ValidationError("email cannot be empty");
+    if (email.find('@') == string::npos) 
+        throw ValidationError("email must contain '@'");
+}
+
 
     // getters
     int id() const { return id_; }

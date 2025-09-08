@@ -1,0 +1,182 @@
+Start testing: Sep 08 01:00 UTC
+----------------------------------------------------------
+1/9 Testing: Student JSON serialization
+1/9 Test: Student JSON serialization
+Command: "/workspaces/CS-310/Lab1.2/build/test_serialization" "Student JSON serialization"
+Directory: /workspaces/CS-310/Lab1.2/build
+"Student JSON serialization" start time: Sep 08 01:00 UTC
+Output:
+----------------------------------------------------------
+Filters: "Student JSON serialization"
+Randomness seeded to: 3484183082
+===============================================================================
+All tests passed (3 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Student JSON serialization" end time: Sep 08 01:00 UTC
+"Student JSON serialization" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/9 Testing: Instructor YAML serialization
+2/9 Test: Instructor YAML serialization
+Command: "/workspaces/CS-310/Lab1.2/build/test_serialization" "Instructor YAML serialization"
+Directory: /workspaces/CS-310/Lab1.2/build
+"Instructor YAML serialization" start time: Sep 08 01:00 UTC
+Output:
+----------------------------------------------------------
+Filters: "Instructor YAML serialization"
+Randomness seeded to: 3972940654
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Instructor YAML serialization" end time: Sep 08 01:00 UTC
+"Instructor YAML serialization" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/9 Testing: CSV escaping handles commas and quotes
+3/9 Test: CSV escaping handles commas and quotes
+Command: "/workspaces/CS-310/Lab1.2/build/test_serialization" "CSV escaping handles commas and quotes"
+Directory: /workspaces/CS-310/Lab1.2/build
+"CSV escaping handles commas and quotes" start time: Sep 08 01:00 UTC
+Output:
+----------------------------------------------------------
+Filters: "CSV escaping handles commas and quotes"
+Randomness seeded to: 3387415813
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CSV escaping handles commas and quotes" end time: Sep 08 01:00 UTC
+"CSV escaping handles commas and quotes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/9 Testing: Validation throws on bad email
+4/9 Test: Validation throws on bad email
+Command: "/workspaces/CS-310/Lab1.2/build/test_serialization" "Validation throws on bad email"
+Directory: /workspaces/CS-310/Lab1.2/build
+"Validation throws on bad email" start time: Sep 08 01:00 UTC
+Output:
+----------------------------------------------------------
+Filters: "Validation throws on bad email"
+Randomness seeded to: 3514120598
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Validation throws on bad email" end time: Sep 08 01:00 UTC
+"Validation throws on bad email" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/9 Testing: Student round-trip JSON
+5/9 Test: Student round-trip JSON
+Command: "/workspaces/CS-310/Lab1.2/build/test_serialization" "Student round-trip JSON"
+Directory: /workspaces/CS-310/Lab1.2/build
+"Student round-trip JSON" start time: Sep 08 01:00 UTC
+Output:
+----------------------------------------------------------
+Filters: "Student round-trip JSON"
+Randomness seeded to: 1682074935
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Student round-trip JSON" end time: Sep 08 01:00 UTC
+"Student round-trip JSON" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/9 Testing: Instructor round-trip JSON
+6/9 Test: Instructor round-trip JSON
+Command: "/workspaces/CS-310/Lab1.2/build/test_serialization" "Instructor round-trip JSON"
+Directory: /workspaces/CS-310/Lab1.2/build
+"Instructor round-trip JSON" start time: Sep 08 01:00 UTC
+Output:
+----------------------------------------------------------
+Filters: "Instructor round-trip JSON"
+Randomness seeded to: 4135075235
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Instructor round-trip JSON" end time: Sep 08 01:00 UTC
+"Instructor round-trip JSON" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/9 Testing: from_json throws on invalid Student
+7/9 Test: from_json throws on invalid Student
+Command: "/workspaces/CS-310/Lab1.2/build/test_serialization" "from_json throws on invalid Student"
+Directory: /workspaces/CS-310/Lab1.2/build
+"from_json throws on invalid Student" start time: Sep 08 01:00 UTC
+Output:
+----------------------------------------------------------
+Filters: "from_json throws on invalid Student"
+Randomness seeded to: 1386203196
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"from_json throws on invalid Student" end time: Sep 08 01:00 UTC
+"from_json throws on invalid Student" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/9 Testing: Student JSON round-trip
+8/9 Test: Student JSON round-trip
+Command: "/workspaces/CS-310/Lab1.2/build/test_serialization" "Student JSON round-trip"
+Directory: /workspaces/CS-310/Lab1.2/build
+"Student JSON round-trip" start time: Sep 08 01:00 UTC
+Output:
+----------------------------------------------------------
+Filters: "Student JSON round-trip"
+Randomness seeded to: 3876260206
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Student JSON round-trip" end time: Sep 08 01:00 UTC
+"Student JSON round-trip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/9 Testing: serialization_tests
+9/9 Test: serialization_tests
+Command: "/workspaces/CS-310/Lab1.2/build/test_serialization"
+Directory: /workspaces/CS-310/Lab1.2/build
+"serialization_tests" start time: Sep 08 01:00 UTC
+Output:
+----------------------------------------------------------
+Randomness seeded to: 3950960607
+===============================================================================
+All tests passed (11 assertions in 8 test cases)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"serialization_tests" end time: Sep 08 01:00 UTC
+"serialization_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 08 01:00 UTC

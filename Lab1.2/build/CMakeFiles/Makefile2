@@ -227,8 +227,8 @@ CMakeFiles/core.dir/clean:
 # Target rules for target CMakeFiles/app.dir
 
 # All Build rule for target.
-CMakeFiles/app.dir/all: CMakeFiles/core.dir/all
 CMakeFiles/app.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/app.dir/all: CMakeFiles/core.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/CS-310/Lab1.2/build/CMakeFiles --progress-num=71 "Built target app"
@@ -254,8 +254,8 @@ CMakeFiles/app.dir/clean:
 # Target rules for target CMakeFiles/test_serialization.dir
 
 # All Build rule for target.
-CMakeFiles/test_serialization.dir/all: CMakeFiles/core.dir/all
 CMakeFiles/test_serialization.dir/all: _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/all
+CMakeFiles/test_serialization.dir/all: CMakeFiles/core.dir/all
 CMakeFiles/test_serialization.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all
 CMakeFiles/test_serialization.dir/all: _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_serialization.dir/build.make CMakeFiles/test_serialization.dir/depend

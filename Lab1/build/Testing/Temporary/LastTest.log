@@ -1,0 +1,18 @@
+Start testing: Sep 02 00:00 UTC
+----------------------------------------------------------
+1/1 Testing: ShapeMakerTests
+1/1 Test: ShapeMakerTests
+Command: "/workspaces/CS-310/Lab1/build/test_shapemaker"
+Directory: /workspaces/CS-310/Lab1/build
+"ShapeMakerTests" start time: Sep 02 00:00 UTC
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ShapeMakerTests" end time: Sep 02 00:00 UTC
+"ShapeMakerTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 02 00:00 UTC

@@ -1,0 +1,5 @@
+/workspaces/CS-310/Lab1/build/CMakeFiles/shapemaker.dir
+/workspaces/CS-310/Lab1/build/CMakeFiles/test_shapemaker.dir
+/workspaces/CS-310/Lab1/build/CMakeFiles/test.dir
+/workspaces/CS-310/Lab1/build/CMakeFiles/edit_cache.dir
+/workspaces/CS-310/Lab1/build/CMakeFiles/rebuild_cache.dir

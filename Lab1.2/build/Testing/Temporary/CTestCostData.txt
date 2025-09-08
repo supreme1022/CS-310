@@ -1,0 +1,10 @@
+Student JSON serialization 1 0.00349301
+Instructor YAML serialization 1 0.00300059
+CSV escaping handles commas and quotes 1 0.00240528
+Validation throws on bad email 1 0.00327439
+Student round-trip JSON 1 0.00272848
+Instructor round-trip JSON 1 0.00273721
+from_json throws on invalid Student 1 0.00252162
+Student JSON round-trip 1 0.00326702
+serialization_tests 1 0.00296261
+---
